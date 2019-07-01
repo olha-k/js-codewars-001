@@ -1,9 +1,11 @@
+// http://www.codewars.com/kata/571ec274b1c8d4a61c0000c8
+
 function helloWorld(str) {
   var str = "Hello World!"
   console.log(str); 
 }
 
-// http://www.codewars.com/kata/571ec274b1c8d4a61c0000c8
+// http://www.codewars.com/kata/571edd157e8954bab500032d
 
 var v1=50;v2=100,v3=150,v4=200,v5=2,v6=250
 function equal1(){
@@ -33,7 +35,7 @@ function equal5(){
   return a%b;
 }
 
-// http://www.codewars.com/kata/571edd157e8954bab500032d
+// http://www.codewars.com/kata/571edea4b625edcb51000d8e
 
 var a1="A",a2="a",b1="B",b2="b",c1="C",c2="c",d1="D",d2="d",e1="E",e2="e",n1="N",n2="n"
 function Dad(){
@@ -63,4 +65,4 @@ function answer3(){
   return "yes";
 }
 
-http://www.codewars.com/kata/571edea4b625edcb51000d8e
+
