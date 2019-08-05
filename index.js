@@ -1,3 +1,50 @@
+// https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+  return Math.min(...args); 
+  }
+}
+
+// http://www.codewars.com/kata/571effabb625ed9b0600107a
+
+function getLength(arr) {
+  return arr.length;
+}
+
+function getFirst(arr) {
+  return arr[0];
+}
+
+function getLast(arr) {
+  return arr[arr.length-1];
+}
+
+function pushElement(arr) {
+  var el=1;
+  arr.push(el);  
+  return arr;
+}
+
+function popElement(arr) {
+  arr.pop(); 
+  return arr;
+}
+
+// https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
+
+function DNAtoRNA(dna) {
+  rna = dna.replace(/T/gi, 'U');
+  return rna;
+}
+
+// https://www.codewars.com/kata/beginner-lost-without-a-map
+
+function maps(x) {
+  const newArray = x.map(num => num * 2);
+  return newArray;
+}
+
 // http://www.codewars.com/kata/571ec274b1c8d4a61c0000c8
 
 function helloWorld() {
